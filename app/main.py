@@ -6,10 +6,10 @@ from typing import List, Dict
 
 
 def cinema_visit(
-        movie: str,
         customers: List[Dict[str, str]],
         hall_number: int,
-        cleaner: str
+        cleaner: str,
+        movie: str
 ) -> None:
     customer_objects = []
     for customer_data in customers:
